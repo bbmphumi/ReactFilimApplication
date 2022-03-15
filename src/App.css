@@ -1,0 +1,85 @@
+.navbar {
+  width: 100%;
+  height: 90%;
+  top: 0;
+  left: 0;
+  background-color: orange;
+  border-bottom: 1px solid;
+  }
+  
+  .navbar .container{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 1rem;
+  }
+
+  .navbar .nav-menu{
+    display: flex;
+    right: 0;
+    justify-items: end;
+    float: left;
+  }
+  
+  .navbar list{
+    padding: 1rem;
+    float: left;
+  }
+  
+  .LineMenu{
+    display: none;
+  }
+  
+  .Welcome{
+  align-items: center;
+  text-align: center;
+  flex-wrap: initial;
+
+
+
+  }
+  
+  @media screen and(  max-width:940px) {
+   .HiOutlineMenuAlt4{
+     display: block;
+   }
+    }
+    
+    .navbar .nav-menu{
+      position :absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      top: 90px;
+      height: 100%;
+      width: 100%;
+      background: rgba(255, 255, 255, 98);
+      transition: 0.4s ease=ease-in-out;
+      z-index: 10;
+
+    }
+
+.navbar :active{
+  right: 0%;
+  flex-direction: column;
+}
+
+    .btn{
+      align-items: flex-start;
+      background-color: green;
+      float: initial;
+
+
+    }
+ .Fanstatic{
+   background-color: gray;
+   display: flex;
+   float: initial;
+   float: initial;
+   padding: 40px;
+   padding-left: 50;
+
+
+ }
+  
